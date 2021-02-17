@@ -8,16 +8,40 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css"
     />
+
+    <style>
+      *,
+      :root,
+      button {
+        font-family: 'Poppins';
+        letter-spacing: -0.2px;
+      }
+
+      main {
+        border-top-left-radius: 2.3rem;
+        border-top-right-radius: 2.3rem;
+      }
+
+      main > div p {
+        background-color: #ddd;
+        border-radius: 43%;
+        width: 86px;
+        height: 86px;
+        text-indent: -99999px;
+        display: block;
+        overflow: hidden;
+      }
+    </style>
   </head>
-  <body>
-    <div class="w-screen h-screen bg-yellow-50 p-4">
+  <body class="h-screen flex flex-col bg-yellow-50">
+    <div class="w-screen bg-yellow-50 p-4">
       <header class="w-full flex justify-between">
         <div class="flex items-center text-lg">
           <span class="w-6 h-6 mr-1">
@@ -48,5 +72,63 @@
         </div>
       </header>
     </div>
+
+    <main class="bg-white w-full shadow px-6 py-4">
+      <h1 class="mb-4">🔴&nbsp;Como crescer no instagram</h1>
+      <div class="grid gap-4 grid-cols-3">
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+        <p>lorem</p>
+      </div>
+    </main>
+
+    <footer
+      class="fixed bottom-0 bg-white w-full m-auto p-3 flex items-center justify-between"
+    >
+      <button class="rounded-full bg-gray-200 py-1.5 px-4 flex items-center">
+        <span class="mt-0.5">🖐</span>
+        <span class="text-red-400 ml-2 text-xs">Leave quietly</span>
+      </button>
+
+      <div class="flex items-center">
+        <button class="p-2 rounded-full bg-gray-200 mr-4">
+          <img width="20px" height="20px" src="assets/add.svg" alt="" />
+        </button>
+
+        <button class="p-1.5 rounded-full bg-gray-200">
+          <img width="26px" height="26px" src="assets/hello.svg" alt="" />
+        </button>
+      </div>
+    </footer>
   </body>
 </html>
